@@ -1,0 +1,185 @@
+/* Center everything */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
+}
+
+/* Main login box */
+.mainbox {
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding: 30px 40px;
+    border-radius: 3px;
+}
+
+/* Instagram logo */
+.ig {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.box1 {
+    width: 100%;
+    height: 38px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fafafa;
+    margin-bottom: 10px;
+}
+
+/* Placeholder color */
+.box1::placeholder {
+    color: #8e8e8e;
+}
+
+/* Input field focus effect */
+.box1:focus {
+    outline: none;
+    border: 1px solid #a8a8a8;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #007acc;
+}
+
+/* OR Separator */
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.half{
+    flex-grow: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or{
+    padding: 0 15px;
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+/* Facebook login */
+.fblogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.facebook-login img {
+    width: 18px;
+}
+
+.facebook-login a {
+    color: #385185;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.facebook-login a:hover {
+    text-decoration: underline;
+}
+
+/* Forgot password */
+.box3 {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.box3 a {
+    color: #00376b;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.box3 a:hover {
+    text-decoration: underline;
+}
+
+/* Signup box */
+.notmainbox {
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.notmainbox a {
+    color: #0095f6;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.notmainbox a:hover {
+    text-decoration: underline;
+}
+
+/* Download app section */
+.download-section {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.download-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-buttons img {
+    width: 135px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #8e8e8e;
+    width: 100%;
+    padding: 20px;
+}
+
